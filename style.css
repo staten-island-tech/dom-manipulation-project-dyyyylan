@@ -4,8 +4,8 @@ body, html * {
 }
 
 .card {
-    width: 40%;
-    height: 40rem;
+    width: 50%;
+    height: 30rem;
     border-radius: 30px;
     border: 5px solid;
     margin: auto;
@@ -15,4 +15,11 @@ body, html * {
 
 .img {
     width: 20%;
+}
+.form {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
 }
