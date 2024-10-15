@@ -6,9 +6,6 @@ text: document.querySelector("#text"),
 img: document.querySelector("#img"),
 };
 
-
-
-
 DOMSelectors.form.addEventListener("submit", function (event){
     event.preventDefault();
     DOMSelectors.form.reset();
