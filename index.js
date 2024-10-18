@@ -11,7 +11,6 @@ function clearinput() {
     DOMSelectors.form.reset();
 }
 
-
 function addprompt(num) {
     DOMSelectors.parentdiv.insertAdjacentHTML(
         "beforeend",
@@ -35,7 +34,6 @@ function run() {
             n+= 1;
         }
     })
-
 }
 
 run();
