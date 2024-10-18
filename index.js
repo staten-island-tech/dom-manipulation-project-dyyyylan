@@ -29,5 +29,14 @@ function addprompt(num) {
 }
 
 function run() {
-    let num = 0;
+    let n = 0;
+DOMSelectors.submitButton.addEventListener("submit", function (event) {
+    if (!(DOMSelectors.text.value === "" || DOMSelectors.img.value === "")){
+        event.preventDefault();
+        addprompt(n);
+        clearinput();
+    }
+})
 }
+
+run();
