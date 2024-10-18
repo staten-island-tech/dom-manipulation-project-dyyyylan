@@ -21,7 +21,7 @@ function addprompt(num) {
     .querySelector(`#b${num}`)
     .addEventListener("click", function (event){
         event.preventDefault();
-        document.addEventListener(`#p${num}`).remove();
+        document.querySelector(`#p${num}`).remove();
     });
 }
 
