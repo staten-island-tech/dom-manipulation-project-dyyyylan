@@ -16,6 +16,9 @@ function addprompt(num) {
         "beforeend",
         `<div class="card" id="p${num}"> <h4>${DOMSelectors.text.value}</h4> <img src ="${DOMSelectors.img.value}" class="imgsize"> <button id="b${num}">Remove</button></div>`
     )
+}
+
+function removeprompt(num) {
     document
     .querySelector(`#b${num}`)
     .addEventListener("click", function (event){
@@ -31,8 +34,13 @@ function run() {
             event.preventDefault();
             addprompt(n);
             clearinput();
+            removeprompt(n);
             n+= 1;
         }
+        else {
+            alert(">:( put in value for both monkey")
+        }
+        
     })
 }
 
