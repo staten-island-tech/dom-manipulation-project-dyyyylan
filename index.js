@@ -38,7 +38,7 @@ function run() {
             n+= 1;
         }
         else {
-            alert(">:( put in value for both monkey")
+            alert(">:( you didnt put values for both dude now im erasing any existing imgs")
         }
         
     })
